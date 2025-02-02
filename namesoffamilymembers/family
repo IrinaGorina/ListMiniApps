@@ -1,0 +1,9 @@
+//Программа,которая выводит имена членов семьи в консоль
+
+public class Family {
+    public static void main(String[] args) {
+        System.out.println("Irina");
+        System.out.println("Igor");
+        System.out.println("Vitalina");
+    }
+}
