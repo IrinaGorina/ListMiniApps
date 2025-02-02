@@ -1,0 +1,16 @@
+//Задача по переменным
+//Есть переменная типа Int,которая хранит кол-во дней. Int days = 365;
+//Сколько это лет,месяцев и дней. 
+
+Решение :
+public class Variable {
+    public static void main(String[] args) {
+        int days = 365;
+        int years =  days / 365;
+        int months = (days - (years * 365)) / 30;
+        int leftDays = days - (years * 365) - (months * 30 );
+        System.out.println(years);
+        System.out.println(months);
+        System.out.println(leftDays);
+    }
+}
