@@ -1,0 +1,9 @@
+//Вывод чисел в консоль с каждой строки
+public static Array {
+public static void main(String[] args) {
+int[] numbers = {4, 1, 34, 45, 13, 13};
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+    }
+}
