@@ -17,7 +17,17 @@ public class Array {
       namesOfMonths[10] = "November";
       namesOfMonths[11] = "December";
       for (int  i = 0; i < 12; i++) {
-        System.out.println(namesOfMonths[i]);
-      }
+//        System.out.println(namesOfMonths[i]); Выводится в столбик
+//          System.out.print(", "); Выводится через запятую в одну строку с запятыми
+          System.out.print(namesOfMonths[i]); //Выводится все в одну строку без запятых,если написать код после for,
+//        и далее создать условие if и закончить кодом System.out.print(".");,программа выводить в консоль названия
+//        месяцев с запятыми,а в конце стоит точка.
+          if (i < 11) {
+              System.out.print(", ");
+          } else {
+              System.out.print(".");
+          }
+          }
     }
 }
+
