@@ -1,0 +1,23 @@
+//Вывод всех месяцев в консоль с помощью массива (Способ рабы с такими данными)
+
+
+public class Array {
+    public static void main(String[] args) {
+      String[] namesOfMonths = new String[12];
+      namesOfMonths[0] = "January";
+      namesOfMonths[1] = "February";
+      namesOfMonths[2] = "March";
+      namesOfMonths[3] = "April";
+      namesOfMonths[4] = "May";
+      namesOfMonths[5] = "June";
+      namesOfMonths[6] = "July";
+      namesOfMonths[7] = "August";
+      namesOfMonths[8] = "September";
+      namesOfMonths[9] = "October";
+      namesOfMonths[10] = "November";
+      namesOfMonths[11] = "December";
+      for (int  i = 0; i < 12; i++) {
+        System.out.println(namesOfMonths[i]);
+      }
+    }
+}
